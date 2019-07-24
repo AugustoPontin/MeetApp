@@ -9,6 +9,7 @@ class Meetup extends Model {
         location: Sequelize.STRING,
         date: Sequelize.DATE,
         file_id: Sequelize.INTEGER,
+        user_id: Sequelize.INTEGER,
       },
       {
         sequelize,
